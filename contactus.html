@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Chua Travels" content="Chua Travels">
+    <title>Chua's Travel</title>
+
+    <!-- Link to CSS stylesheet-->
+    <link href="travelagency.css" rel="stylesheet">
+
+      <!-- Link to Bootstrap CSS -->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+      <!-- Link to Bootstrap Javascript -->
+      <!-- NOTE!! Must be in the correct sequence -->
+      <script src="jquery/jquery-3.3.1.min.js"></script>
+      <script src="popper/popper.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+
+    <!-- Navigation Bar-->
+    <nav class="navbar bg-dark navbar-expand-md navbar-dark">
+
+        <!-- Brand/Logo -->
+        <a href="homepage.html" class="navbar-brand">
+            <img src="images/airplane-logo.png" style="width: 50px;">
+        </a>
+
+        <!-- Toggler Button (Hamburger icon) -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span> <!-- Image for hamburger icon -->
+        </button>
+
+        <!-- Menu/Navigation Bar that is collapsible-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <!-- Menu Items -->
+            <ul class="navbar-nav">
+
+                <!-- 1st Link -->
+                <li class="nav-item"><a href="homepage.html" class="nav-link text-light">Home</a></li>
+
+                <!-- 2nd Link (with dropdown)-->
+                <li class="nav-item dropdown">
+
+                    <a href="packagetours.html" class="nav-link text-light dropdown-toggle" data-toggle="dropdown">
+                        Package Tours
+                    </a>
+
+                    <!-- Define the dropdown items -->
+                    <div class="dropdown-menu">
+                        <a href="cruises.html" class="dropdown-item">Cruises</a>
+                        <a href="tours.html" class="dropdown-item">Tours</a>
+                    </div>
+
+                </li>
+
+                <!-- 3rd Link -->
+                <li class="nav-item">
+                    <a href="contactus.html" class="nav-link text-light">Contact Us</a>
+                </li>
+
+            </ul>
+
+            <!-- form for Search Button -->
+            <form action="myserver.html" method="get" class="form-inline ml-auto d-none d-md-block">
+
+                <div class="input-group">
+
+                    <input type="text" placeholder="search" class="form-control">
+                    <button class="btn btn-outline-light" type="submit" style="height: 2.5vw; margin-top:7px;">Search</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </nav>
+
+<body>
+
+<h1 class="display-4 mt-5 mb-3">Contact Us</h1>
+<p class="text-dark text-center">We love questions and feedback - and we're always happy to help!<br>
+Here are some ways to contact us.</p>
+
+
+    <!-- Contact Us Form-->
+
+    <!-- Textboxes -->
+    <div class="container w-70">
+        
+        <!-- First Name -->
+        <div class="row w-50">
+
+            <div class="col-md-3" style="float: right">
+                <label for="myTextID">Input Text:</label>
+            </div>
+
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="firstName" name="first" placeholder="Your first name...">
+            </div>
+
+        </div>
+
+        <!-- Last Name -->
+        <div class="row w-50">
+
+            <div class="col-md-3">
+                <label for="myTextID">Last Name:</label>
+            </div>
+
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="lastName" name="last" placeholder="Your last name...">
+            </div>
+
+        </div>
+
+
+        <!-- Contact Number -->
+        <div class="row w-50">
+
+            <div class="col-md-3">
+                <label for="myTextID">Contact Number:</label>
+            </div>
+
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="contactNumber" name="contact" placeholder="Your contact number...">
+            </div>
+
+        </div>
+
+        <!-- E-mail -->
+        <div class="row w-50">
+
+            <div class="col-md-3">
+                <label for="myTextID">E-mail:</label>
+            </div>
+
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="eMail" name="email" placeholder="Your e-mail...">
+            </div>
+
+                    <!-- Enquiry Textarea-->
+        <div class="container">
+
+            <div class="row w-20">
+
+                <div class="col-md-3">
+                    <label for="enquiry">Enquiry:</label>
+                </div>
+
+                <div class="col-md-9">
+                    <textarea class="form-control" rows="10" id="enquiry" name="enquire"></textarea>
+
+                                <!-- Submit/Reset Buttons -->
+            <div class="row w-100 mt-2">
+
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-outline-info">Submit</button>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+
+<!-- Footer -->
+<section class="footer">
+
+    <div class="box-container">
+
+    <div class="box">
+    <h3>Contact Us</h3>
+    <p>&copy; Chua's Travels
+    <a href="tel:6772 1900"> &#9742; 6772 1900</a> <a href="mailto:enquiry@chuabrother.sg">&#9993;enquiry@chuabrother.sg</a></p>
+    </div>
+
+    <div class="box">
+    <h3>Address</h3>
+    <p>Singapore Polytechnic,<br> #01-01, <br>Singapore 139651</p>
+    </div>
+
+    <div class="box">
+    <h3>Follow Us</h3>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+    <a href="#">Linkedin</a>
+    </div>
+
+</section>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Chua Travels" content="Chua Travels">
+    <title>Chua's Travel</title>
+
+    <!-- Link to CSS stylesheet-->
+    <link href="travelagency.css" rel="stylesheet">
+
+      <!-- Link to Bootstrap CSS -->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+      <!-- Link to Bootstrap Javascript -->
+      <!-- NOTE!! Must be in the correct sequence -->
+      <script src="jquery/jquery-3.3.1.min.js"></script>
+      <script src="popper/popper.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+
+    <!-- Navigation Bar-->
+    <nav class="navbar bg-dark navbar-expand-md navbar-dark">
+
+        <!-- Brand/Logo -->
+        <a href="homepage.html" class="navbar-brand">
+            <img src="images/airplane-logo.png" style="width: 50px;">
+        </a>
+
+        <!-- Toggler Button (Hamburger icon) -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span> <!-- Image for hamburger icon -->
+        </button>
+
+        <!-- Menu/Navigation Bar that is collapsible-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <!-- Menu Items -->
+            <ul class="navbar-nav">
+
+                <!-- 1st Link -->
+                <li class="nav-item"><a href="homepage.html" class="nav-link text-light">Home</a></li>
+
+                <!-- 2nd Link (with dropdown)-->
+                <li class="nav-item dropdown">
+
+                    <a href="packagetours.html" class="nav-link text-light dropdown-toggle" data-toggle="dropdown">
+                        Package Tours
+                    </a>
+
+                    <!-- Define the dropdown items -->
+                    <div class="dropdown-menu">
+                        <a href="cruises.html" class="dropdown-item">Cruises</a>
+                        <a href="tours.html" class="dropdown-item">Tours</a>
+                    </div>
+
+                </li>
+
+                <!-- 3rd Link -->
+                <li class="nav-item">
+                    <a href="contactus.html" class="nav-link text-light">Contact Us</a>
+                </li>
+
+            </ul>
+
+            <!-- form for Search Button -->
+            <form action="myserver.html" method="get" class="form-inline ml-auto d-none d-md-block">
+
+                <div class="input-group">
+
+                    <input type="text" placeholder="search" class="form-control">
+                    <button class="btn btn-outline-light" type="submit" style="height: 2.5vw; margin-top:7px;">Search</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </nav>
+
+    <!-- Main Content -->
+    
+
+
+                       <!-- Carousel -->
+        <div class="container">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+                <!-- Carousel Indicators (dots at the bottom)-->
+                <ol class="carousel-indicators">
+        
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+        
+                </ol>
+        
+                <!-- Images for the slides -->
+                <div class="carousel-inner">
+        
+                    <!-- 1st Image -->
+                    <div class="carousel-item active">
+        
+                        <image src="https://www.insurancejournal.com/app/uploads/2020/10/royal-caribbean-cruise-ship.jpg" style="width: 100%; max-height: 350px;"/>
+        
+                        <div class="carousel-caption">
+                            <a href="itinerary.html"
+                            <h3 class="text-white fw-bold">3D/4N Cruise to Nowhere Singapore - Royal Carribean</h3>
+                            <h5 class="text-white fw-bolder">Up to 30% OFF - Early Bird Sale</h5>
+                        </a>
+                        </div>
+        
+                    </div>
+        
+                    <!-- 2nd Image -->
+                    <div class="carousel-item">
+        
+                        <image src="https://www.dreamcruiseline.com/File/UploadFile/2020/11/18/1138/gdr-bds-balcony-deluxe-stateroom-01.jpg" style="width: 100%; max-height: 350px;"/>
+        
+                        <div class="carousel-caption">
+                            <a href="itinerary.html">
+                            <h3 class="text-white">5D/4N Cruise to Nowhere Singapore - Genting Dream</h3>
+                            <h5 class="text-white">Up to 50% OFF - Early Bird Sale</h5></a>
+                        </div>
+                    </div>
+            
+        
+                    <!-- 3rd Image -->
+                    <div class="carousel-item">
+                        <image src="https://static.wikia.nocookie.net/cnc_gamepedia_en/images/4/47/New_york.jpg/revision/latest?cb=20180801163953" style="width: 100%; max-height: 350px;"/>
+        
+                        <div class="carousel-caption">
+                         <a href="itinerary.html">
+                            <h3 class="text-white">12D/11N to America</h3>
+                            <h5 class="text-white">Up to 20% OFF - Early Bird Sale</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+        
+                <!-- Left and Right arrows -->
+                <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+        
+                <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+
+            <h1 class="text-md-start fw-bolder mt-5 mb-5">Cruises</h1>
+    <!-- 1 row with 3 columns -->
+    <div id="featuredDeals" class="row">
+
+        <!-- 1st Featured Deal -->
+        <div class="col-sm-4">
+    
+        <!-- An image card -->
+        <div class="card w-100 bg-dark">
+        <img class="img-fluid" src="https://gentingcruiselines.com/media/1113/starcruise_en.png" alt="Star Cruise" style="height:21.2vw;">
+        <div class="card-body">
+        <h2 class="card-text text-center text-warning">5D4N Star Cruise</h2>
+        <p class="card-text text-center text-warning">Up to $8,00 per pax</p>
+        <a href="itinerary.html"><p class="text-center">Book Now</p></a>
+        </div>
+        </div>
+        </div>
+        
+    
+        <!-- 2nd Featured Deal -->
+    
+        <div class="col-sm-4">
+    
+            <!-- An image card -->
+            <div class="card w-100 bg-dark">
+            <img class="img-fluid" src="https://res.klook.com/image/upload/c_fill,w_750,h_500,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/xdey9efghiypisbszva9.jpg" alt="Dream Cruise">
+            <div class="card-body">
+            <h2 class="card-text text-center text-warning">2D3N Genting Dream</h2>
+            <p class="card-text text-center text-warning">Up to $688 per pax</p>
+            <a href="itinerary.html"><p class="text-center">Book Now</p></a>
+            </div>
+        </div>
+        </div>
+    
+          <!-- 3rd Featured Deal -->
+          <div class="col-sm-4">
+    
+            <!-- An image card -->
+            <div class="card w-100 bg-dark">
+                <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8ZyIr-XbrKppFNnMM5eooIrSPRtmKTScrQ&usqp=CAU" alt="Royal Carribean Cruise">
+                <div class="card-body">
+                <h2 class="card-text text-center text-warning">2D3N Royal Carribean</h2>
+                <p class="card-text text-center text-warning">Up to $1,000 per pax</p>
+                <a href="itinerary.html"><p class="text-center">Book Now</p></a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <!-- 1 row with 3 columns -->
+    <div id="featuredDeals" class="row mt-5">
+
+    <!-- 1st Featured Deal -->
+    <div class="col-sm-4">
+
+    <!-- An image card -->
+    <div class="card w-100 bg-dark">
+    <img class="img-fluid" src="https://gentingcruiselines.com/media/1113/starcruise_en.png" alt="Star Cruise" style="height:21.2vw;">
+    <div class="card-body">
+    <h2 class="card-text text-center text-warning">5D4N Star Cruises</h2>
+    <p class="card-text text-center text-warning">Up to $8,00 per pax</p>
+    <a href="itinerary.html"><p class="text-center">Book Now</p></a>
+    </div>
+    </div>
+    </div>
+
+    <!-- 2nd Featured Deal -->
+
+    <div class="col-sm-4">
+
+        <!-- An image card -->
+        <div class="card w-100 bg-dark">
+        <img class="img-fluid" src="https://res.klook.com/image/upload/c_fill,w_750,h_500,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/xdey9efghiypisbszva9.jpg" alt="Dream Cruise">
+        <div class="card-body">
+        <h2 class="card-text text-center text-warning">2D3N Genting Dream</h2>
+        <p class="card-text text-center text-warning">Up to $688 per pax</p>
+        <a href="itinerary.html"><p class="text-center">Book Now</p></a>
+        </div>
+    </div>
+    </div>
+
+      <!-- 3rd Featured Deal -->
+      <div class="col-sm-4">
+
+        <!-- An image card -->
+        <div class="card w-100 bg-dark">
+            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8ZyIr-XbrKppFNnMM5eooIrSPRtmKTScrQ&usqp=CAU" alt="Royal Carribean Cruise">
+            <div class="card-body">
+            <h2 class="card-text text-center text-warning">2D3N Royal Carribean</h2>
+            <p class="card-text text-center text-warning">Up to $1,000 per pax</p>
+            <a href="itinerary.html"><p class="text-center">Book Now</p></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </body>
+        
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <div class="box-container">
+
+        <div class="box">
+        <h3>Contact Us</h3>
+        <p>&copy; Chua's Travels
+        <a href="tel:6772 1900"> &#9742; 6772 1900</a> <a href="mailto:enquiry@chuabrother.sg">&#9993;enquiry@chuabrother.sg</a></p>
+        </div>
+
+        <div class="box">
+        <h3>Address</h3>
+        <p>Singapore Polytechnic,<br> #01-01, <br>Singapore 139651</p>
+        </div>
+
+        <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Linkedin</a>
+        </div>
+    
+</section>
+</html>

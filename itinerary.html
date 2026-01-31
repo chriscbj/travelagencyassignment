@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Chua Travels" content="Chua Travels">
+    <title>Chua's Travel</title>
+
+    <!-- Link to CSS stylesheet-->
+    <link href="travelagency.css" rel="stylesheet">
+
+      <!-- Link to Bootstrap CSS -->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+      <!-- Link to Bootstrap Javascript -->
+      <!-- NOTE!! Must be in the correct sequence -->
+      <script src="jquery/jquery-3.3.1.min.js"></script>
+      <script src="popper/popper.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+
+    <!-- Navigation Bar-->
+    <nav class="navbar bg-dark navbar-expand-md navbar-dark">
+
+        <!-- Brand/Logo -->
+        <a href="homepage.html" class="navbar-brand">
+            <img src="images/airplane-logo.png" style="width: 50px;">
+        </a>
+
+        <!-- Toggler Button (Hamburger icon) -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span> <!-- Image for hamburger icon -->
+        </button>
+
+        <!-- Menu/Navigation Bar that is collapsible-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <!-- Menu Items -->
+            <ul class="navbar-nav">
+
+                <!-- 1st Link -->
+                <li class="nav-item"><a href="homepage.html" class="nav-link text-light">Home</a></li>
+
+                <!-- 2nd Link (with dropdown)-->
+                <li class="nav-item dropdown">
+
+                    <a href="packagetours.html" class="nav-link text-light dropdown-toggle" data-toggle="dropdown">
+                        Package Tours
+                    </a>
+
+                    <!-- Define the dropdown items -->
+                    <div class="dropdown-menu">
+                        <a href="cruises.html" class="dropdown-item">Cruises</a>
+                        <a href="tours.html" class="dropdown-item">Tours</a>
+                    </div>
+
+                </li>
+
+                <!-- 3rd Link -->
+                <li class="nav-item">
+                    <a href="contactus.html" class="nav-link text-light">Contact Us</a>
+                </li>
+
+            </ul>
+
+            <!-- form for Search Button -->
+            <form action="myserver.html" method="get" class="form-inline ml-auto d-none d-md-block">
+
+                <div class="input-group">
+
+                    <input type="text" placeholder="search" class="form-control">
+                    <button class="btn btn-outline-light" type="submit" style="height: 2.5vw; margin-top:7px;">Search</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </nav>
+    
+ 
+                   <!-- An image card -->
+                   <div class="card w-50 ml-auto mr-auto text-center bg-info mt-5">
+                    <img src="https://www.chanbrothers.com/images/default-source/default-album/korea-3_0-(1).jpg?sfvrsn=d00abb78_0" class="img-fluid rounded mx-auto d-block" alt="Korea" style="width: 100%; height: 35vw;">
+                        <h1 class="rounded fw-bold text-center mt-2">7D5N South Korea<br>Up to $4,000 per pax</h1>
+                     <!-- Make enquiry button -->
+                    <div class="row">
+                    <div class="mt-2 mb-2 col-lg-6 text-right">
+                    <button type="button" class="btn btn-warning btn-lg data-toggle="button">Make enquiry</button>
+                    </div>
+                    <!-- Get quote button -->
+                    <div class="mt-2 mb-2 col-lg-6 text-left">
+                    <button type="button" class="btn btn-warning btn-lg" data-toggle="button">Get quote</button>
+                    </div>
+                    </div>
+                    </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron col-lg-6 text-light mt-0 mb-0 bg-dark">
+            <p><strong>Incheon</strong><br>
+                ·  Songwol-dong Fairy Tale Village<br>
+                ·  Jajangmyeon Museum<br>
+                ·  Hyundai Premium Outlet<br><br>
+                
+                <strong>Seoul</strong><br>
+                ·  Gyeongbok Palace<br>
+                ·  Dongdaemun Market<br>
+                ·  Hongik University Street<br><br>
+                
+                <strong>Jeju</strong><br>
+                ·  Udobong Peak<br>
+                ·  Geommeolle beach<br>
+                ·  Seobin Baeksa<br>
+                ·  Jeju Folk Village Museum<br>
+                ·  All-terrain vehicle ride<br>
+                ·  Jeju Herb Dongsan<br>
+                ·  O’sulloc Tea Museum<br><br>
+                
+                <strong>Busan</strong><br>
+                ·    Haedong Yonggungsa Temple<br>
+                ·    Cheongsapo Daritdol Observatory skywalk<br>
+                ·    E-world 83 tower<br>
+                ·    Gamcheon cultural village<br>  
+                
+                <strong>Jeonju</strong><br>
+                ·    Jeonju Hanok Village <br><br>
+                
+                <strong>Imsil</strong><br>
+                ·  Imsil Cheese Themepark  <br><br>
+                
+                <strong>CHERRY BLOSSOM SITES</strong><br>
+                - Halla Arboretum Walk<br>
+                - Mt Jangbok park at Jinhae Yeojwacheon bridge Kyunghwa train station  <br><br>
+                
+                <strong>VALUE PLUS</strong><br>
+                ·  Korean Culinary lesson with Hamul Pajeon making<br>
+                ·  Scenic Boat ride to Udo Island<br>
+                ·  Pampering  Aromatherapy Footbath<br>
+                ·  Hanbok Dress-up session at Jeonju<br>
+                ·  DIY Cheese Making Experience  <br><br>
+                
+                <strong>GOURMET INCLUSIONS</strong><br>
+                ·  Dookki Tteokbokki Buffet Lunch<br>
+                ·  Ginseng chicken soup dinner <br>
+                ·  Abalone and seafood claypot soup<br>
+                ·  Black pork bulgogi with unique Hallasan fried rice lunch<br>
+                ·  Jeju Dombe Set Dinner<br>
+                ·  Korean minced abalone porridge breakfast<br>
+                ·  Pork Galbi BBQ Lunch<br>
+                ·  Korean Set lunch Korean pan fried chicken lunch<br>
+                </p>
+            </div>
+        
+
+            <div class="jumbotron col-lg-6 text-light mb-0 bg-dark">
+                <h4>Day 1 <span style="color:green">SINGAPORE - INCHEON - SEOUL</span></h4>
+                <p>Assemble at Singapore Changi Airport for your flight to Incheon. Upon arrival, proceed for PCR test and transfer to hotel for check-in.<br><br></p>
+
+                <h4>Day 2 <span style="color:green">SEOUL</span></h4>
+                <p>Breakfast/ Korean Set Lunch/ Hot Stone Pot Bibimbap Dinner<br><br>
+                    
+                    Accommodation: Novotel Ambassador Seoul Yongsan or Best Western Premier Seoul Garden Hotel</p>
+
+                <h4>Day 3 <span style="color:green">SEOUL - INCHEON - JEJU</span></h4>
+                <p>This morning, visit the majestic Gyeongbok Palace, the palace during the Joseon dynasty. Here you will also get to don on traditional Korean dress and stroll through the palace ground in a Hanbok dressup.  Thereafter, transfer to the airport for your domestic flight to Jeju.<br><br>
+
+                    Accommodation: Ocean Suites Jeju Hotel or similar</p>
+                
+                <h4>Day 4 <span style="color:green">JEJU</span></h4>
+                <p>This morning, enjoy a scenic ride to the beautiful Woljeongri Beach windmill coastal road. Next gear up for a thrilling all-terrain vehicle ride. Next, stop at a local fruit farm and enjoy picking and tasting tangerines. Later, visit the magnificent Jusangjeolli Cliff, which was formed when the lava from Hallasan erupted into the sea of Jungmun. After which, proceed to Seonimgyo Bridge, also known as the Seven Nymphs Bridge. Take a relaxing stroll across the bridge and be mesmerised by its beautiful scenery. Thereafter, head to Camellia Hill where your heart melts and your dormant passion comes back to life as you gaze upon the red camellia flowers blooming in the cold winter.<br><br>
+
+                    Accommodation: Ocean Suites Jeju Hotel or similar</p>
+
+                <h4>Day 5 <span style="color:green">JEJU - BUSAN - DAEGU</span></h4>
+                <p>Transfer to the airport for your domestic flight to Busan. Upon arrival, visit Busan Gamcheon Culture Village. Wander along colourful streets covered with wall murals. Next, head for some heart-stopping action at Oryukdo Skywalk, floating 40 metres above the surface of the water. End your day at Gukje Market, one of Korea’s largest traditional markets. Stay overnight in Daegu.<br><br>
+
+                    Accommodation: Hotel Inter-Burgo Daegu</p>
+
+                <h4>Day 6 <span style="color:green">DAEGU - PYEONGCHANG</span></h4>
+                <p>Breakfast/ Dried Pollack Set Lunch<br><br>
+                    Begin your day with a relaxing coach ride to Pyeongchang.  Upon arrival, we will check-in to Yongpyong resort.  Afterwhich, enjoy a scenic cable car ride to Mount Balwang where you can experience the breath-taking Skywalk. At Mount Balwang, you will also find white powder snow with breath-taking view of winter.  Later in the afternoon, indulge in a host of fun snow activities. You will also receive a complimentary pair Ski gloves.</p>
+
+                <h4>Day 7 <span style="color:green">PYEONGCHANG - SINGAPORE</span></h4>
+                <p>(Light Breakfast at Airport/ Meals On Board)<br>
+                    This morning, transfer to the airport for your flight home.</p>
+
+
+                        </div>
+                        
+            </div>
+        </div>
+        
+    </body>
+
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <div class="box-container">
+
+        <div class="box">
+        <h3>Contact Us</h3>
+        <p>&copy; Chua's Travels
+        <a href="tel:6772 1900"> &#9742; 6772 1900</a> <a href="mailto:enquiry@chuabrother.sg">&#9993;enquiry@chuabrother.sg</a></p>
+        </div>
+
+        <div class="box">
+        <h3>Address</h3>
+        <p>Singapore Polytechnic,<br> #01-01, <br>Singapore 139651</p>
+        </div>
+
+        <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Linkedin</a>
+        </div>
+    
+
+</section>
